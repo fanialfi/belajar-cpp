@@ -1,7 +1,6 @@
-#include <iostream> // artinya mengambil / mencopy library iostream kesini
+#include <iostream>
 
-int main()
-{
-  std::cout << "Hello 'Fani Alfirdaus'" << std::endl;
+int main() {
+  std::cout << "Hello World" << std::endl;
   return 0;
-#include "kurung.h"
+}
