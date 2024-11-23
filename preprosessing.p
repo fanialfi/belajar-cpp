@@ -37019,7 +37019,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 # 3 "hello_world.cpp"
-int main() {
+int main()
+{
   std::cout << "Hello 'Fani Alfirdaus'" << std::endl;
   return 0;
+# 1 "kurung.h" 1
 }
+# 8 "hello_world.cpp" 2
