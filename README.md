@@ -30,3 +30,16 @@ setelah preprocessing selesai, tahap selanjutnya adalah mencompile, jika ingin m
 ```
 
 kedua command itu akan menghasilkan object file
+
+lalu langkah selanjutnya adalah menjadikan object file menjadi executable dengan proses linking,
+linking adalah proses menyatukan semua object file menjadi 1 file executable, command-nya adalah
+
+```bash
+# jika menggunakan compiler clang
+[fani@OpenSUSE] $ clang++ obj1.o obj2.o
+
+# jika menggunakan compiler gcc
+[fani@OpenSUSE] $ g++ obj1.o obj2.o
+```
+
+command itu akan menghasilkan 1 file executable
