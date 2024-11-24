@@ -2,7 +2,7 @@
 #include <typeinfo>
 
 int main() {
-  int a = 100;
+  int a = 100; // disebut inisialisasi variabel
   /*
     cara mendefinisikan variabel adalah dengan cara / keyword
     <typedata> <namavariabel> = <value>
